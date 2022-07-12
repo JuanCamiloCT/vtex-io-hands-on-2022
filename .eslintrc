@@ -1,0 +1,21 @@
+{
+    "rules": {
+        "indent": ["error", 4],
+        "no-plusplus": ["error", {
+            "allowForLoopAfterthoughts": true
+        }],
+        "lines-around-comment": ["error", {
+            "allowBlockStart": true,
+            "beforeBlockComment": true
+        }]
+    },
+    "extends": [
+        "airbnb-base/legacy"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true,
+        "jquery": true
+    }
+}

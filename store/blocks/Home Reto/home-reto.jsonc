@@ -1,0 +1,10 @@
+{
+    "responsive-layout.desktop#home-reto":{
+        "children":[
+            "list-context.image-list#main-banner",
+            "flex-layout.row#deal-home",
+            "flex-layout.row#second-banner-container",
+            "flex-layout.row#home-categories"
+        ]
+    }
+}

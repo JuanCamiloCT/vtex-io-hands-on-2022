@@ -1,0 +1,120 @@
+{
+    "flex-layout.row#banner-container":{
+        "children":[
+            "flex-layout.col#banner-title",
+             "flex-layout.col#banner-images" 
+        ]
+    },
+    "flex-layout.col#banner-title":{
+       "children":[
+            "rich-text#title-main",
+            "rich-text#title-second",
+            "link.product#btn-more"
+       ]
+    },
+    "rich-text#title-main":{
+        "props":{
+            "text":"#### Latest arrivals and trends release"
+        }
+    },
+    "rich-text#title-second":{
+        "props":{
+            "text":"##### New possibilities. Better access."
+        }
+    },
+    "link.product#btn-more":{
+        "props": {
+            "href": "{/new-arrivals}",
+            "label": "View more",
+            "target":"_blank"
+          }
+    },
+    "flex-layout.col#banner-images":{
+        "children":[
+            "flex-layout.row#banner-images"
+        ]
+    },
+    "flex-layout.row#banner-images":{
+        "children":[
+            "flex-layout.col#banner-images-1",
+            "flex-layout.col#banner-images-2",
+            "flex-layout.col#banner-images-3"
+        ]
+    },
+    "flex-layout.col#banner-images-1":{
+        "children":[
+            "rich-text#image-title-1",
+            "image#image-product-1"
+        ]
+    },
+    "rich-text#image-title-1":{
+        "props":{
+            "text":"Shipping discount \n  Up to US $20 off shipping"
+        }
+    },
+    "image#image-product-1":{
+        "props": {
+            "src": "https://i.imgur.com/u0KnAfL.jpeg",
+            "maxHeight": 200,
+            "maxwidth":200,
+            "link":{
+                "properties":{
+                    "newTab": {
+                        "$ref": "#/categoria-1",
+                        "title": "Imagen 1"
+                      }
+                }
+            }
+          }
+    },   "flex-layout.col#banner-images-2":{
+        "children":[
+            "rich-text#image-title-2",
+            "image#image-product-2"
+        ]
+    },
+    "rich-text#image-title-2":{
+        "props":{
+            "text":"Shipping discount \n  Up to US $20 off shipping"
+        }
+    },
+    "image#image-product-2":{
+        "props": {
+            "src": "https://i.imgur.com/QJVSA3f.jpeg",
+            "maxHeight": 200,
+            "maxwidth":200,
+            "link":{
+                "properties":{
+                    "newTab": {
+                        "$ref": "#/categoria-2",
+                        "title": "Imagen 1"
+                      }
+                }
+            }
+          }
+    },   "flex-layout.col#banner-images-3":{
+        "children":[
+            "rich-text#image-title-3",
+            "image#image-product-3"
+        ]
+    },
+    "rich-text#image-title-3":{
+        "props":{
+            "text":"Shipping discount \n  Up to US $20 off shipping"
+        }
+    },
+    "image#image-product-3":{
+        "props": {
+            "src": "https://i.imgur.com/JsCrWhS.jpeg",
+            "maxHeight": 200,
+            "maxwidth":200,
+            "link":{
+                "properties":{
+                    "newTab": {
+                        "$ref": "#/categoria-3",
+                        "title": "Imagen 1"
+                      }
+                }
+            }
+          }
+    }
+}

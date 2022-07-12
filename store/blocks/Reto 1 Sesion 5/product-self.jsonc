@@ -1,0 +1,42 @@
+{
+    "list-context.product-list#main-1": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#main-1"]
+    },
+    "list-context.product-list#main-2": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["list-context-renderer#main"]
+    },
+    "product-summary.shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+
+    "slider-layout#main-1": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "autoplay":{
+                "timeout":3500
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots":"always"
+        }
+    },
+    "list-context-renderer#main": {
+        "props": {
+          "listElement": "div",
+          "itemElement": "div"
+        }
+      }
+}

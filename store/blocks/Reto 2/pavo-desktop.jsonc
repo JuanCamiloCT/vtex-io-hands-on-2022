@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#food-1":{
+        "children":[
+            "flex-layout.col#food-image",
+            "flex-layout.col#food-description"
+        ],
+        "props":{
+            "colSizing":"auto"
+        }
+    },
+    "flex-layout.col#food-image":{
+        "children":[
+            "image#food-image"
+        ],
+        "props":{
+            "width":"100%"
+        }
+    },
+    "image#food-image":{
+        "props": {
+            "src": "https://i.imgur.com/ipQipBB.jpeg",
+            "maxHeight": 270,
+            "maxwidth":450
+          }
+    },
+    "flex-layout.col#food-description":{
+        "children":[
+            "rich-text#food-title",
+            "rich-text#food-description",
+            "flex-layout.row#food-feature"
+        ]
+    },
+    "rich-text#food-title":{
+        "props":{
+            "text":"Pavo dorado relleno al horno"
+        }
+    },
+    "rich-text#food-description":{
+        "props":{
+            "text":"Delicioso y sencillo de preparar, pavo al horno relleno de verduras con lorem ipsum para celebrar la navidad con toda la familia."
+        }
+    },
+    "flex-layout.row#food-feature":{
+        "children":[
+            
+        ]
+    }
+}

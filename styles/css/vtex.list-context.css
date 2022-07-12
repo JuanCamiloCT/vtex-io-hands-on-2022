@@ -1,0 +1,24 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.item{
+    width: 33%;
+    padding: .75rem;
+}
+.item:nth-child(4n) {
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .item{
+        width: 100%;
+        height: 400px;
+        object-fit: none;
+    }
+    .item:nth-child(4n) .imageElement{
+        height: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "flex-layout.row#deals":{
+        "children":[
+            "flex-layout.col#deal-1",
+            "flex-layout.col#deal-2",
+            "flex-layout.col#deal-3",
+            "flex-layout.col#deal-4",
+            "flex-layout.col#deal-5"
+        ]
+
+    },
+    "flex-layout.col#deal-1":{
+        "children":[
+            "flex-layout.row#deal-1"
+        ]
+    },
+    "flex-layout.row#deal-1":{
+        "children":[
+            "image#deal-1-img",
+            "rich-text#deal-1-message"
+        ]
+    },
+    "rich-text#deal-1-message":{
+        "props":{
+            "text":"Entregas en \n **45 mins**"
+        }
+    },
+    "image#deal-1-img": {
+        "props": {
+          "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+    "flex-layout.col#deal-2":{
+        "children":[
+            "flex-layout.row#deal-2"
+        ]
+    },
+    "flex-layout.row#deal-2":{
+        "props":{
+            "horizontalAlign":"center"
+        },
+        "children":[
+            "image#deal-2-img",
+            "rich-text#deal-2-message"
+        ]
+    },
+    "rich-text#deal-2-message":{
+        "props":{
+            "text":"Compra  **fácil** \n **y segura**"
+        }
+    },
+    "image#deal-2-img": {
+        "props": {
+          "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+    "flex-layout.col#deal-3":{
+        "children":[
+            "flex-layout.row#deal-3"
+        ]
+    },
+    "flex-layout.row#deal-3":{
+        "children":[
+            "image#deal-3-img",
+            "rich-text#deal-3-message"
+        ]
+    },
+    "rich-text#deal-3-message":{
+        "props":{
+            "text":"Mejores \n  precios y \n **ofertas**"
+        }
+    },
+    "image#deal-3-img": {
+        "props": {
+          "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+    "flex-layout.col#deal-4":{
+        "children":[
+            "flex-layout.row#deal-4"
+        ]
+    },
+    "flex-layout.row#deal-4":{
+        "children":[
+            "image#deal-4-img",
+            "rich-text#deal-4-message"
+        ]
+    },
+    "rich-text#deal-4-message":{
+        "props":{
+            "text":"**Seguimiento** \n  de tus pedidos"
+        }
+    },
+    "image#deal-4-img": {
+        "props": {
+          "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+    "flex-layout.col#deal-5":{
+        "children":[
+            "flex-layout.row#deal-5"
+        ]
+    },
+    "flex-layout.row#deal-5":{
+        "children":[
+            "image#deal-5-img",
+            "rich-text#deal-5-message"
+        ]
+    },
+    "rich-text#deal-5-message":{
+        "props":{
+            "text":"Pago **online y** \n **contra entrega**"
+        }
+    },
+    "image#deal-5-img": {
+        "props": {
+          "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      }
+
+}

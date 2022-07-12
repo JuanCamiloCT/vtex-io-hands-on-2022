@@ -1,0 +1,7 @@
+.stretchChildrenWidth{
+    display: flex;
+    align-items: center;
+}
+.flexRow{
+    align-items: center
+}

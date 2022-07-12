@@ -1,0 +1,47 @@
+{
+    "list-context.image-list#images-dress": {
+        "children": [
+            "list-context-renderer#img"
+        ],
+        "props": {
+            "preload": true,
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://i.imgur.com/5TKycho.jpeg",
+                    "description": "Imagen 1"
+                },
+                {
+                    "image": "https://i.imgur.com/kzF2tuC.jpg",
+                    "description": "Imagen 2"
+                },
+                {
+                    "image": "https://i.imgur.com/M4tLgrn.jpg",
+                    "description": "Imagen 3"
+                },
+                {
+                    "image": "https://i.imgur.com/XOYwFkE.jpg",
+                    "description": "Imagen 4"
+                },
+                {
+                    "image": "https://i.imgur.com/3t2tV3u.jpg",
+                    "description": "Imagen 5"
+                },
+                {
+                    "image": "https://i.imgur.com/mchi6Iv.jpg",
+                    "description": "Imagen 6"
+                },
+                {
+                    "image": "https://i.imgur.com/Gz1Bfqt.jpg",
+                    "description": "Imagen 7"
+                }
+            ]
+        }
+    },
+    "list-context-renderer#img": {
+        "props": {
+            "listElement": "div",
+            "itemElement": "div"
+        }
+    }
+}

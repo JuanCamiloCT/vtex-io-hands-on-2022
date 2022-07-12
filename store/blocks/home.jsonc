@@ -1,0 +1,17 @@
+{
+    "store.home": {
+        "blocks": [
+/*             "flex-layout.row#deals",
+            "flex-layout.row#categories",
+            "flex-layout.row#food-1",
+            "flex-layout.row#banner-container",
+            "slider-layout#main-1",
+            "list-context.image-list#deals-1",
+            "list-context.image-list#deals-2" */
+            /* "responsive-layout.desktop#home-reto" */
+/*             "list-context.product-list#main-1",
+            "list-context.product-list#main-2" */
+            "list-context.image-list#images-dress"
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#second-banner-container":{
+        "children":[
+            "flex-layout.col#second-title",
+            "flex-layout.col#second-slider"
+        ]
+    },
+    "flex-layout.col#second-title":{
+        "children":[
+            "rich-text#second-banner-title",
+            "rich-text#second-banner-category-title"
+        ]
+    },
+    "rich-text#second-banner-title":{
+        "props":{
+            "text":"# LO MEJOR  PARA \n TU PIEL"
+        }
+    },
+    "rich-text#second-banner-category-title":{
+        "props":{
+            "text":"#### DERMOCÓSMETICA"
+        }
+    },
+    "flex-layout.col#second-slider":{
+        "children":[
+            "list-context.image-list#second-banner"
+        ]
+    },
+    "list-context.image-list#second-banner": {
+        "children": ["slider-layout#second-banner"],
+        "props": {
+          "preload": true,
+          "height": 650,
+          "images": [
+            {
+              "image": "https://i.imgur.com/kLD60Ny.jpeg",
+              "description": "Piel 1",
+              "link":{
+                "url":"/piel-1"
+                }
+              
+            },
+            {
+              "image": "https://i.imgur.com/vmzoyCd.jpeg",
+              "description": "Piel 2",
+              "link":{
+                  "url":"/piel-2"
+              }
+            },
+            {
+                "image": "https://i.imgur.com/i9fSgqT.jpeg",
+                "description": "Piel 3",
+                "link":{
+                    "url":"/piel-3"
+                }
+            }
+          ]
+        }
+      },
+      "slider-layout#second-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay":{
+                "timeout":3500
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots":"always"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "list-context.image-list#main-banner": {
+        "children": ["slider-layout#main-home-banner"],
+        "props": {
+          "preload": true,
+          "height": 650,
+          "images": [
+            {
+              "image": "https://i.imgur.com/uXuNUmH.jpeg",
+              "description": "Departamento 1",
+              "link":{
+                "url":"/departamento-1"
+                }
+              
+            },
+            {
+              "image": "https://i.imgur.com/xez6idh.jpeg",
+              "description": "Departamento 2",
+              "link":{
+                  "url":"/departamento-2"
+              }
+            }
+          ]
+        }
+      },
+      "slider-layout#main-home-banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay":{
+                "timeout":3500
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots":"always"
+        }
+    }
+}

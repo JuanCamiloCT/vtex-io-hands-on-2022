@@ -1,0 +1,176 @@
+{
+    "flex-layout.row#categories":{
+        "children":[
+            "flex-layout.col#categories-1",
+            "flex-layout.col#categories-2",
+            "flex-layout.col#categories-3",
+            "flex-layout.col#categories-4",
+            "flex-layout.col#categories-5",
+            "flex-layout.col#categories-6",
+            "flex-layout.col#categories-7",
+            "flex-layout.col#categories-8",
+            "flex-layout.col#categories-9"
+        ]
+    },
+    "flex-layout.col#categories-1":{
+        "children":[
+            "rich-text#title-1",
+            "rich-text#link"
+        ]
+    },
+    "rich-text#title-1":{
+        "props":{
+            "text":"¿QUE ESTAS  \n  BUSCANDO?",
+            "font": "t-heading-5"
+        }
+    },
+    "rich-text#link":{
+        "props":{
+            "text":"[VER TODO]((https://)"
+        }
+    },
+    "flex-layout.col#categories-2":{
+        "children":[
+            "image#categories-2",
+            "rich-text#title-2"
+        ]
+    },
+    "image#categories-2":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-2":{
+        "props":{
+            "text":"Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#categories-3":{
+        "children":[
+            "image#categories-3",
+            "rich-text#title-3"
+        ]
+    },
+    "image#categories-3":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-3":{
+        "props":{
+            "text":"Cuidado Corporal"
+        }
+    },
+    "flex-layout.col#categories-4":{
+        "children":[
+            "image#categories-4",
+            "rich-text#title-4"
+        ]
+    },
+    "image#categories-4":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-4":{
+        "props":{
+            "text":"Cuidado Facial"
+        }
+    },
+    "flex-layout.col#categories-5":{
+        "children":[
+            "image#categories-5",
+            "rich-text#title-5"
+        ]
+    },
+    "image#categories-5":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-5":{
+        "props":{
+            "text":"Maquillaje"
+        }
+    },
+    "flex-layout.col#categories-6":{
+        "children":[
+            "image#categories-6",
+            "rich-text#title-6"
+        ]
+    },
+    "image#categories-6":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-6":{
+        "props":{
+            "text":"Cuidado Bebé"
+        }
+    },
+    "flex-layout.col#categories-7":{
+        "children":[
+            "image#categories-7",
+            "rich-text#title-7"
+        ]
+    },
+    "image#categories-7":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-7":{
+        "props":{
+            "text":"Cuidado Capilar"
+        }
+    },
+    "flex-layout.col#categories-8":{
+        "children":[
+            "image#categories-8",
+            "rich-text#title-8"
+        ]
+    },
+    "image#categories-8":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-8":{
+        "props":{
+            "text":"Cuidado Corporal"
+        }
+    },
+    "flex-layout.col#categories-9":{
+        "children":[
+            "image#categories-9",
+            "rich-text#title-9"
+        ]
+    },
+    "image#categories-9":{
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxHeight": 93,
+            "maxwidth":93
+          }
+    },
+    "rich-text#title-9":{
+        "props":{
+            "text":"Cuidado Facial"
+        }
+    }
+}

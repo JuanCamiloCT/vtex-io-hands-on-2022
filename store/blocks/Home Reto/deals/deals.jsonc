@@ -1,0 +1,127 @@
+{
+    "flex-layout.row#deal-home":{
+        "children":[
+            "flex-layout.col#deal-home-1",
+            "flex-layout.col#deal-home-2",
+            "flex-layout.col#deal-home-3",
+            "flex-layout.col#deal-home-4",
+            "flex-layout.col#deal-home-5"
+        ]
+    },
+    "flex-layout.col#deal-home-1":{
+        "children":[
+            "flex-layout.row#deal-home-1"
+        ]
+    },
+    "flex-layout.row#deal-home-1":{
+        "children":[
+            "image#deal-home-1-img",
+            "rich-text#deal-home-1-message"
+        ]
+    },
+    "rich-text#deal-home-1-message":{
+        "props":{
+            "text":"Envío al **76%**\n  **de Colombia**"
+        }
+    },
+    "image#deal-home-1-img": {
+        "props": {
+          "src": "https://i.imgur.com/ACgNude.png",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+      "flex-layout.col#deal-home-2":{
+        "children":[
+            "flex-layout.row#deal-home-2"
+        ]
+    },
+    "flex-layout.row#deal-home-2":{
+        "children":[
+            "image#deal-home-2-img",
+            "rich-text#deal-home-2-message"
+        ]
+    },
+    "rich-text#deal-home-2-message":{
+        "props":{
+            "text":"Atención al cliente\n **de Domingo a Domingo**"
+        }
+    },
+    "image#deal-home-2-img": {
+        "props": {
+          "src": "https://i.imgur.com/WMT290j.png",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+      "flex-layout.col#deal-home-3":{
+        "children":[
+            "flex-layout.row#deal-home-3"
+        ]
+    },
+    "flex-layout.row#deal-home-3":{
+        "children":[
+            "image#deal-home-3-img",
+            "rich-text#deal-home-3-message"
+        ]
+    },
+    "rich-text#deal-home-3-message":{
+        "props":{
+            "text":"**Amplio portafolio**\n de productos"
+        }
+    },
+    "image#deal-home-3-img": {
+        "props": {
+          "src": "https://i.imgur.com/hBZnXpU.png",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+      "flex-layout.col#deal-home-4":{
+        "children":[
+            "flex-layout.row#deal-home-4"
+        ]
+    },
+    "flex-layout.row#deal-home-4":{
+        "children":[
+            "image#deal-home-4-img",
+            "rich-text#deal-home-4-message"
+        ]
+    },
+    "rich-text#deal-home-4-message":{
+        "props":{
+            "text":"Entrega **ágil** \n **y segura**"
+        }
+    },
+    "image#deal-home-4-img": {
+        "props": {
+          "src": "https://i.imgur.com/0W9jNwv.png",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      },
+      "flex-layout.col#deal-home-5":{
+        "children":[
+            "flex-layout.row#deal-home-5"
+        ]
+    },
+    "flex-layout.row#deal-home-5":{
+        "children":[
+            "image#deal-home-5-img",
+            "rich-text#deal-home-5-message"
+        ]
+    },
+    "rich-text#deal-home-5-message":{
+        "props":{
+            "text":"[**Rastrea** tus \n pedidos](/rastrea-tus-pedidos)"
+        }
+    },
+    "image#deal-home-5-img": {
+        "props": {
+          "src": "https://i.imgur.com/e1OW7Nd.png",
+          "maxHeight": 50,
+          "maxwidth":40
+        }
+      }
+
+}

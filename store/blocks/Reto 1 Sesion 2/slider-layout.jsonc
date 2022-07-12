@@ -1,0 +1,133 @@
+{
+    "slider-layout#main-1": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "centerMode":{
+                "desktop": "disabled",
+                "tablet": "to-the-left",
+                "phone": "to-the-left"
+            },
+            "infinite": true,
+            "showNavigationArrows": "mobileOnly",
+            "blockClass": "carousel",
+            "showPaginationDots":"never"
+        },
+        "children": [
+            "image#categories-2",
+            "image#categories-3",
+            "image#categories-4",
+            "image#categories-5"
+        ]
+    },
+    "slider-layout#main-2": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay":{
+                "timeout":3500
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots":"always"
+        }
+    },
+    "list-context.image-list#deals-1": {
+        "children": ["slider-layout#main-2"],
+        "props": {
+          "preload": true,
+          "height": 650,
+          "images": [
+            {
+              "image": "https://i.imgur.com/oY7YEDM.jpeg",
+              "description": "Imagen 1",
+              "link":{
+                "url":"/categoria-1"
+                }
+              
+            },
+            {
+              "image": "https://i.imgur.com/oY7YEDM.jpeg",
+              "description": "Imagen 2",
+              "link":{
+                  "url":"/categoria-2"
+              }
+            },
+            {
+                "image": "https://i.imgur.com/oY7YEDM.jpeg",
+                "description": "Imagen 3",
+                "link":{
+                    "url":"/categoria-3"
+                }
+              }
+          ]
+        }
+      },
+      "slider-layout#main-3": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay":{
+                "timeout":3500
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots":"always"
+        },
+        "children": [
+            "link#video"
+        ]
+    },
+    "list-context.image-list#deals-2": {
+        "children": ["slider-layout#main-3"],
+        "props": {
+          "preload": true,
+          "height": 650,
+          "images": [
+            {
+              "image": "https://i.imgur.com/oY7YEDM.jpeg",
+              "description": "Imagen 1",
+              "link":{
+                "url":"/categoria-1"
+                }
+              
+            },
+            {
+              "image": "https://i.imgur.com/oY7YEDM.jpeg",
+              "description": "Imagen 2",
+              "link":{
+                  "url":"/categoria-2"
+              }
+            }
+
+          ]
+        }
+      },
+      "link#video": {
+        "props": {
+            "href": "/video-prueba"
+          },
+        "children":[
+            "video#background"
+        ]
+      },
+      "video#background": {
+        "props": {
+          "width": "100%",
+          "height": "600px",
+          "loop": false,
+          "autoPlay": true,
+          "muted": false,
+          "src": "https://blacksip.com/imgload/Forus-UY/videos/V%C3%ADdeo-intervenci%C3%B3n-botas.mp4"
+        }
+      }
+}

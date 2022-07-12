@@ -1,0 +1,108 @@
+{
+    "flex-layout.row#home-categories": {
+        "children": [
+            "slider-layout#categories"
+        ]
+    },
+    "slider-layout#categories": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 3500
+            },
+            "infinite": true
+        },
+        "children": [
+            "flex-layout.col#categorie-1",
+            "flex-layout.col#categorie-2",
+            "flex-layout.col#categorie-3",
+            "flex-layout.col#categorie-4",
+            "flex-layout.col#categorie-1",
+            "flex-layout.col#categorie-2"
+        ]
+    },
+    "flex-layout.col#categorie-1": {
+        "children": [
+            "image#categorie-1",
+            "rich-text#categorie-1"
+        ]
+    },
+    "image#categorie-1": {
+        "props": {
+            "src": "https://i.imgur.com/Apxvt2Q.jpeg",
+            "maxHeight": 80,
+            "maxwidth": 80
+        }
+    },
+    "rich-text#categorie-1": {
+        "props": {
+            "text": "[**Cuidado Facial**](/categoria-1)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categorie-2": {
+        "children": [
+            "image#categorie-2",
+            "rich-text#categorie-2"
+        ]
+    },
+    "image#categorie-2": {
+        "props": {
+            "src": "https://i.imgur.com/R2Nvpir.jpeg",
+            "maxHeight": 80,
+            "maxwidth": 80
+        }
+    },
+    "rich-text#categorie-2": {
+        "props": {
+            "text": "[**Cuidado capilar**](/categoria-2)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categorie-3": {
+        "children": [
+            "image#categorie-3",
+            "rich-text#categorie-3"
+        ]
+    },
+    "image#categorie-3": {
+        "props": {
+            "src": "https://i.imgur.com/mRUBIWe.jpeg",
+            "maxHeight": 80,
+            "maxwidth": 80
+        }
+    },
+    "rich-text#categorie-3": {
+        "props": {
+            "text": "[**Protección solar**](/categoria-3)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categorie-4": {
+        "children": [
+            "image#categorie-4",
+            "rich-text#categorie-4"
+        ]
+    },
+    "image#categorie-4": {
+        "props": {
+            "src": "https://i.imgur.com/VmC54EE.jpeg",
+            "maxHeight": 80,
+            "maxwidth": 80
+        }
+    },
+    "rich-text#categorie-4": {
+        "props": {
+            "text": "[**Cuidado corporal**](/categoria-4)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}
